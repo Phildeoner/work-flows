@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo-image {
+    width: 50px;
+}
+
+.logo-text {
+    max-width: 30px;
+    line-height: 0.7;
+}
+
+.logo-text-span {
+    color: goldenrod;
+    font-size: 14px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.nav-links a:hover {
+    color: goldenrod;
+    transition: color 0.3s ease;
+}
+
+.nav-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.login-button {
+    background-color: goldenrod;
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+
+.login-button:hover {
+    background-color: #333;
+    color: goldenrod;
+    border: 1px solid goldenrod;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.signup-button {
+    background-color: white;
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid goldenrod;
+}
+
+.signup-button:hover {
+    background-color: #333;
+    color: goldenrod;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    border: 1px solid white;
+}
+
+main {
+    background-image: url('../../src/assets/hero-image-v3.jpg');
+    height: 88vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overlay: rgba(0, 0, 0, 0.5);
+    position: relative;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.main-title {
+    font-size: 48px;
+    font-weight: 700;
+    color: goldenrod;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.main-description {
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.get-started-button {
+    background-color: goldenrod;
+    color: #333;
+    padding: 12px 30px;
+    border-radius: 5px;
+    border: 1px solid white;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.get-started-button:hover {
+    background-color: #333;
+    color: goldenrod;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    border: 1px solid goldenrod;
+}
